@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+     background-color: rgb(240, 230, 230);
+ }
+ .foto{
+    top: -4%;
+}
+.foto .menus{
+    margin-left: 900px;
+    margin-top: -8%;
+}
+
+ .paragraph{
+     margin-top: 18%;
+ }
+
+ .text2{
+     margin-left: 200px;
+ }
+ .text1{
+     margin-left: 320px;
+ }
+ .shopno{
+     color: rgb(82, 243, 162);
+ }
+ .agency{
+     color: rgb(84, 236, 160);
+ }
+ .button{
+     width: 150px;
+     height: 40px;
+     margin-left: 435px;
+     margin-top: 15%;
+ }
+ .glasss{
+     margin-left: 71%;
+     margin-top: 10%;
+ }
+ .paragraph2{
+     margin-top: 15%;
+ }
+ .about{
+     margin-left:450px ;
+     font-size: 2em;
+ }
+ .text3{
+     margin-left: 280px;
+ }
+ .text4{
+     margin-top: 10%;
+     margin-left: 620px;
+ }
+.ofice{
+    margin-left: -110%;
+    margin-top: -60%;
+}
+ .paragraph3{
+     text-align: center;
+ }
+.paragraph4{
+    text-align: center;
+
+}
+.paragraph5{
+    text-align: center;
+}
+.imgfon{
+    margin-left: -55%;
+}
+.animation img:hover{
+    transform: scale(1.1);
+}
+.animation{
+    position: relative;
+    animation-name: toBottom;
+    animation-duration: 2s;
+}
+@keyframes toBottom {
+    0%{
+        opacity: 0;
+        bottom:-200px;
+    }
+    50%{
+        opacity: 0;
+        bottom:-300px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+.animation2 img:hover{
+    transform: scale(1.1);
+}
+.animation2{
+    position: relative;
+    animation-name: toBottom;
+    animation-duration: 2s;
+}
+@keyframes toBottom {
+    0%{
+        opacity: 0;
+        bottom:-200px;
+    }
+    50%{
+        opacity: 0;
+        bottom:-300px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+.paragraph5 img:hover{
+    transform: scale(1.4);
+}
+.paragraph5{
+    position: relative;
+    animation-delay: 2s;
+}
+.box{
+    width: 500px;
+    height: 200px;
+    margin-top: 6%;
+    background-color:#a9b0bd;
+    margin-left: 50%;
+    margin-top: -20%;
+}
+.box2{
+    width: 450px;
+    height:300px;
+    background-color: #3f5360;
+    margin-left: 10%;
+}
+.box3{
+    width: 450px;
+    height: 300px;
+    background-color:#3f5360 ;
+    margin-left: 55%;
+    margin-top: -30%;
+    
+}
+.button1{
+    font-size: 1em;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(0, 225, 255);
+}
+.links{
+    display: flexbox;
+    width: 200px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 5%;
+}
+.oxirgi{
+    margin-left: 250px;
+    margin-top: -15%;
+}
